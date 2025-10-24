@@ -67,3 +67,15 @@ feature/* - Feature branches
 
 hotfix/* - Hotfix branches
 
+# Pull latest changes
+git pull origin main
+
+# Create a new feature branch
+git checkout -b feature/your-feature-name
+
+# After making changes
+git add .
+git commit -m "Description of changes"
+
+# Push to remote
+git push -u origin feature/your-feature-name
